@@ -1,15 +1,12 @@
-import './App.css';
+import React from "react";
+import HomePage from "./pages/Home";
+import "./App.css"; // app-specific styles
 
 function App() {
-  return (
-    <div className="app-container">
-      <h1>Hello React!</h1>
-      <p>My first React app is running on Mac!</p>
-    </div>
-  )
+  return <HomePage />;
 }
 
-export default App
+export default App;
 
 
 
